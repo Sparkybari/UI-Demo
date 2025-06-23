@@ -38,10 +38,20 @@
     padding: 16px 20px;
     border-bottom: 1px solid #333;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
   
   .menu-list li:hover {
     background-color: #2e2e2e;
+  }
+  
+  /* Highlight active menu item */
+  .menu-list li.active {
+    background-color: #444;
+    font-weight: bold;
+    border-left: 4px solid #00c2ff;
   }
   
   .main-content {
