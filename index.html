@@ -1,35 +1,50 @@
-<div class="container">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UI Demo</title>
+
+  <!-- Font Awesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-yH2+8Vz1KpE4vQdAgN9LG7R2H4sUOqKcI+K5V6QbwQ4KhMdzy4FaD9e+qQmDZ1KNoVn67EbAbZRSR2fZrH7xjw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
     <aside class="sidebar">
-      <ul>
-        <li>Monitoring</li>
-        <li>Settings</li>
-        <li>Site Info</li>
-        <li>History</li>
-        <li>Energy</li>
+      <div class="sidebar-header">MENU</div>
+      <ul class="menu-list">
+        <li class="active"><i class="fa-solid fa-desktop"></i> Monitoring</li>
+        <li><i class="fa-solid fa-gear"></i> Settings</li>
+        <li><i class="fa-solid fa-circle-info"></i> Site info</li>
+        <li><i class="fa-solid fa-clock-rotate-left"></i> History</li>
+        <li><i class="fa-solid fa-bolt"></i> Energy</li>
       </ul>
     </aside>
-  
+
     <main class="main-content">
-      <header class="top-header">
-        <h1>Refrigerant cycle data</h1>
-        <!-- Controls like date, search, view toggles -->
+      <header class="topbar">
+        <div class="branding">LG <span class="bold">THERMA V</span>. cloud</div>
+        <div class="account-info">
+          <span>Last Update : 2025.04.29 14:28:52</span>
+          <span>EU_CM_FK 👤</span>
+        </div>
       </header>
-  
-      <section class="equipment-info">
-        <!-- Top table with Hi Press TGT, Pipe IN, Mode, etc. -->
-      </section>
-  
-      <section class="cycle-valve-info">
-        <!-- Valve / Cycle state with Main/Sub1/Sub2 -->
-      </section>
-  
-      <section class="actuator-info">
-        <!-- Actuator Info 1 & 2 -->
-      </section>
-  
-      <section class="sensor-info">
-        <!-- Sensors like Air Temp, Suction Temp -->
+
+      <section class="main-body">
+        <h2>Site</h2>
       </section>
     </main>
   </div>
-  
+
+  <script src="script.js"></script>
+
+</body>
+</html>
