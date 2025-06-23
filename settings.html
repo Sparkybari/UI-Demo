@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Settings</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Font Awesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-yH2+8Vz1KpE4vQdAgN9LG7R2H4sUOqKcI+K5V6QbwQ4KhMdzy4FaD9e+qQmDZ1KNoVn67EbAbZRSR2fZrH7xjw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- Your main stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <aside class="sidebar">
+      <div class="sidebar-header">MENU</div>
+      <ul class="menu-list">
+        <li><a href="index.html"><i class="fa-solid fa-desktop"></i> Monitoring</a></li>
+        <li class="active"><a href="settings.html"><i class="fa-solid fa-gear"></i> Settings</a></li>
+        <li><a href="site-info.html"><i class="fa-solid fa-circle-info"></i> Site info</a></li>
+        <li><a href="history.html"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
+        <li><a href="energy.html"><i class="fa-solid fa-bolt"></i> Energy</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div class="branding"> Company <span class="bold">PLATFORM NAME</span></div>
+        <div class="account-info">
+          <span>Last Update : 2025.04.29 14:28:52</span>
+          <span>USER_NAME 👤</span>
+        </div>
+      </header>
+
+      <section class="main-body">
+        <h2>Settings</h2>
+        <p>This is the Settings page.</p>
+      </section>
+    </main>
+  </div>
+
+  <!-- (Optional) JS for dynamic behavior -->
+  <script src="script.js"></script>
+</body>
+</html>
