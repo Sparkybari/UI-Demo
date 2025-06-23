@@ -14,6 +14,7 @@
     referrerpolicy="no-referrer"
   />
 
+  <!-- Your main stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -21,11 +22,11 @@
     <aside class="sidebar">
       <div class="sidebar-header">MENU</div>
       <ul class="menu-list">
-        <li class="active"><i class="fa-solid fa-desktop"></i> Monitoring</li>
-        <li><i class="fa-solid fa-gear"></i> Settings</li>
-        <li><i class="fa-solid fa-circle-info"></i> Site info</li>
-        <li><i class="fa-solid fa-clock-rotate-left"></i> History</li>
-        <li><i class="fa-solid fa-bolt"></i> Energy</li>
+        <li class="active"><a href="index.html"><i class="fa-solid fa-desktop"></i> Monitoring</a></li>
+        <li><a href="settings.html"><i class="fa-solid fa-gear"></i> Settings</a></li>
+        <li><a href="site-info.html"><i class="fa-solid fa-circle-info"></i> Site info</a></li>
+        <li><a href="history.html"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
+        <li><a href="energy.html"><i class="fa-solid fa-bolt"></i> Energy</a></li>
       </ul>
     </aside>
 
@@ -34,17 +35,17 @@
         <div class="branding">LG <span class="bold">PLATFORM NAME</span>. cloud</div>
         <div class="account-info">
           <span>Last Update : 2025.04.29 14:28:52</span>
-          <span>USE_NAME 👤</span>
+          <span>USER_NAME 👤</span>
         </div>
       </header>
 
       <section class="main-body">
-        <h2>Data</h2>
+        <h2>Monitoring</h2>
+        <p>This is the Monitoring page. Use this section to display system data, performance charts, or alerts.</p>
       </section>
     </main>
   </div>
 
   <script src="script.js"></script>
-
 </body>
 </html>
